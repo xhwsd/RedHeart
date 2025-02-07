@@ -1,0 +1,14 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="Nurfed_Clicks.lua"/>
+	<Frame name="Nurfed_Clicks_Frame" hidden="true">
+		<Scripts>
+			<OnLoad>
+				Nurfed_Clicks_OnLoad()
+			</OnLoad>
+			<OnEvent>
+			         Nurfed_Clicks_OnEvent()
+                        </OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

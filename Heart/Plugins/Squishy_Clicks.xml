@@ -1,0 +1,24 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Frame name="Squishy_Clicks_Frame" hidden="true">
+		<Scripts>
+			<OnLoad>
+				this:RegisterEvent("VARIABLES_LOADED");
+				function Heart_Squishy_Click(arg1, unit)
+                                         if (Heart_MouseHeal and (Heart_MouseHeal(unit, arg1))) then
+                                            return true
+                                         else
+	                                     return
+                                         end
+                                end
+			</OnLoad>
+			<OnEvent>
+			        if(event == "VARIABLES_LOADED") then
+                                    if IsAddOnLoaded("Squishy") then
+                                         SquishyCustomClick = Heart_Squishy_Click
+                                    end
+                                end
+                        </OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

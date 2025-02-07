@@ -1,0 +1,28 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Frame name="Sage_Clicks_Frame" hidden="true">
+		<Scripts>
+			<OnLoad>
+				this:RegisterEvent("VARIABLES_LOADED");
+
+                                function Sage_Clicks()
+                                         local unit = this.id
+                                         if (Heart_MouseHeal and (Heart_MouseHeal(unit, arg1))) then
+                                            return;
+                                         else
+                                             return oldSFrame_OnClick(arg1);
+                                         end
+                                end
+
+			</OnLoad>
+			<OnEvent>
+			         if (event == "VARIABLES_LOADED") then
+                                    if (IsAddOnLoaded("Sage")) then
+                                       oldSFrame_OnClick = SFrame_OnClick
+                                       SFrame_OnClick = Sage_Clicks
+                                    end
+                                 end
+                        </OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

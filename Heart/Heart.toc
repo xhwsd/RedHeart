@@ -1,0 +1,37 @@
+## Interface: 11200
+## Title: redHeart 0.142
+## Author: raynorli
+## Dependencies: C
+## SavedVariables: C_update_player_data_time
+## SavedVariablesPerCharacter: Heart_Config, Heart_SavedProfiles
+MyMinimapButton.lua
+..\C\C_AKA.lua
+..\C\C_ClearTooltip.lua
+..\C\C_GetBuffData.lua
+..\C\C_GetDebuffData.lua
+..\C\C_GetSpellData.lua
+..\C\C_GetUnitID.lua
+..\C\C_UnitName.lua
+..\C\C_Print.lua
+..\C\C_SetPlayerData.lua
+..\C\C_UnitGotBuff.lua
+..\C\C_UnitGotDebuff.lua
+..\C\C_UpdatePlayerData.lua
+Heart.xml
+Plugins\MG2_Clicks.lua
+Plugins\AUF_Clicks.lua
+Plugins\oRa_Clicks.lua
+Plugins\oUF_Clicks.lua
+Plugins\ag_Clicks.lua
+Plugins\Squishy_Clicks.xml
+Plugins\Perf_Clicks.xml
+Plugins\Sage_Clicks.xml
+Plugins\CTRA_Clicks.xml
+Plugins\EkCTRA_Clicks.xml
+Plugins\DUF_Clicks.xml
+Plugins\EzR_Clicks.xml
+Plugins\Nurfed_Clicks.xml
+Plugins\Nymb_Clicks.xml
+Plugins\CTAssist_Clicks.xml
+Plugins\Squeaky_Clicks.xml
+Plugins\Perl_Clicks.xml

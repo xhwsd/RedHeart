@@ -1,0 +1,98 @@
+<Bindings>
+	<Binding name="HEART_CUSTOM_1" header="HEART">
+		Heart_KeyClicks("custombutton1");
+	</Binding>
+	<Binding name="HEART_CUSTOM_2">
+		Heart_KeyClicks("custombutton2");
+	</Binding>
+        <Binding name="HEART_PLAYER_1" header="HEARTCLICKS">
+		Heart_MouseHeal("player", "custombutton1");
+	</Binding>
+	<Binding name="HEART_PLAYER_2">
+		Heart_MouseHeal("player", "custombutton2");
+	</Binding>
+	<Binding name="HEART_P1_1">
+		Heart_Party_Clicks("party1", "custombutton1");
+	</Binding>
+	<Binding name="HEART_P1_2">
+		Heart_Party_Clicks("party1", "custombutton2");
+	</Binding>
+	<Binding name="HEART_P2_1">
+		Heart_Party_Clicks("party2", "custombutton1");
+	</Binding>
+	<Binding name="HEART_P2_2">
+		Heart_Party_Clicks("party2", "custombutton2");
+	</Binding>
+	<Binding name="HEART_P3_1">
+		Heart_Party_Clicks("party3", "custombutton1");
+	</Binding>
+	<Binding name="HEART_P3_2">
+		Heart_Party_Clicks("party3", "custombutton2");
+	</Binding>
+	<Binding name="HEART_P4_1">
+		Heart_Party_Clicks("party4", "custombutton1");
+	</Binding>
+	<Binding name="HEART_P4_2">
+		Heart_Party_Clicks("party4", "custombutton2");
+	</Binding>
+	<Binding name="HEART_MT1_1">
+	        Heart_Tank_Clicks("1", "custombutton1")
+	</Binding>
+	<Binding name="HEART_MT1_2">
+        	Heart_Tank_Clicks("1", "custombutton2");
+	</Binding>
+	<Binding name="HEART_MT2_1">
+	        Heart_Tank_Clicks("2", "custombutton1");
+	</Binding>
+	<Binding name="HEART_MT2_2">
+	        Heart_Tank_Clicks("2", "custombutton2");
+	</Binding>
+	<Binding name="HEART_MT3_1">
+	        Heart_Tank_Clicks("3", "custombutton1");
+	</Binding>
+	<Binding name="HEART_MT3_2">
+	        Heart_Tank_Clicks("3", "custombutton2");
+	</Binding>
+	<Binding name="HEART_MT4_1">
+		Heart_Tank_Clicks("4", "custombutton1");
+	</Binding>
+	<Binding name="HEART_MT4_2">
+		Heart_Tank_Clicks("4", "custombutton2");
+	</Binding>
+	<Binding name="HEART_MT5_1">
+		Heart_Tank_Clicks("5", "custombutton1");
+	</Binding>
+	<Binding name="HEART_MT5_2">
+		Heart_Tank_Clicks("5", "custombutton2");
+	</Binding>
+	<Binding name="HEART_MT6_1">
+		Heart_Tank_Clicks("6", "custombutton1");
+	</Binding>
+	<Binding name="HEART_MT6_2">
+		Heart_Tank_Clicks("6", "custombutton2");
+	</Binding>
+	<Binding name="HEART_MT7_1">
+		Heart_Tank_Clicks("7", "custombutton1");
+	</Binding>
+	<Binding name="HEART_MT7_2">
+		Heart_Tank_Clicks("7", "custombutton2");
+	</Binding>
+	<Binding name="HEART_MT8_1">
+		Heart_Tank_Clicks("8", "custombutton1");
+	</Binding>
+	<Binding name="HEART_MT8_2">
+		Heart_Tank_Clicks("8", "custombutton2");
+	</Binding>
+	<Binding name="HEART_MT9_1">
+		Heart_Tank_Clicks("9", "custombutton1");
+	</Binding>
+	<Binding name="HEART_MT9_2">
+		Heart_Tank_Clicks("9", "custombutton2");
+	</Binding>
+	<Binding name="HEART_MT10_1">
+		Heart_Tank_Clicks("10", "custombutton1");
+	</Binding>
+	<Binding name="HEART_MT10_2">
+		Heart_Tank_Clicks("10", "custombutton2");
+	</Binding>
+ </Bindings>

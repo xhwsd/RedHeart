@@ -1,0 +1,34 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="Perl_Clicks.lua"/>
+	<Frame name="Perl_Clicks_Frame" hidden="true">
+		<Scripts>
+			<OnLoad>
+				this:RegisterEvent("VARIABLES_LOADED")
+			</OnLoad>
+			<OnEvent>
+			        if (event == "VARIABLES_LOADED") then
+                                   if IsAddOnLoaded("Perl") then
+                                      Genesis_MouseHeal = Heart_MouseHeal
+                                   end
+                                   if IsAddOnLoaded("Perl_Player") then
+                                      Genesis_MouseHeal = Heart_MouseHeal
+                                   end
+                                   if IsAddOnLoaded("Perl_Target") then
+                                      Genesis_MouseHeal = Heart_MouseHeal
+                                   end
+                                   if IsAddOnLoaded("Perl_Target_Target") then
+                                      Genesis_MouseHeal = Heart_MouseHeal
+                                   end
+                                   if IsAddOnLoaded("Perl_Party") then
+                                      Genesis_MouseHeal = Heart_MouseHeal
+                                   end
+                                   if IsAddOnLoaded("Perl_Raid") then
+                                      Genesis_MouseHeal = Heart_MouseHeal
+                                   end
+                                 end
+
+                        </OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>
